@@ -1,0 +1,153 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #4d4e56;
+	height: 100vh;
+}
+.wrapper{
+	width: 1000px;
+	margin: 0 auto;
+}
+.headar-section{
+
+}
+.container{
+    background: #02cc83;
+    overflow: hidden;
+    padding-bottom: 23px;
+}
+.content{
+    padding: 10px 0;
+}
+.logo{
+ float: left;
+ width: 20%;
+}
+.logo img{
+ max-width: 100%;
+ display: block;
+}
+.menu{
+float: left;
+width: 80%;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+.menu ul li{
+    list-style: none;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 20px 0;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    display: block;
+    /* padding-left: 15px; */
+    color: #fff;
+    position: relative;
+    transform: all 0.4s ease;
+    z-index: 0;
+}
+.menu ul li a:after{
+    position: absolute;
+    content: "";
+    bottom: -10px;
+    left: 0;
+    width: 0%;
+    height: 5px;
+    color: #fff;
+    transition: all 0.4s ease;
+    z-index: 0;
+}
+.menu ul li a:hover:after{
+	background: #fff;
+	width: 100%;
+}
+.pricing-content{
+    background: #fff;
+    overflow: hidden;
+    transform: translateY(-35px);
+    box-shadow: 0 0 5px #000;
+}
+.pricing-heading{
+    text-align: center;
+}
+.pricing-heading h1{
+    margin-bottom: 0;
+    text-transform: uppercase;
+    margin-top: 0;
+    padding-top: 40px
+}
+.pricing-heading p{
+margin-top: 0;
+}
+.pricing-box{
+    width: 33.33%;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+
+
+}
+.pricing-box ul{
+/*margin: 0;
+    padding: 0;*/
+    background: rgba(60, 59, 59, 0.13);
+    /* margin: 0 auto; */
+    text-align: center;
+    padding: 15px 0;
+    margin: 0 auto;
+
+}
+.pricing-box ul li{
+     list-style: none;
+    padding: 10px 0;
+    border-bottom: 1px solid #b1b1b1;
+    font-size: 18px;
+}
+.pricing-box ul li h2{
+	margin: 0;
+	text-transform: uppercase;
+
+
+}
+.pricing-box ul li h1{
+	margin: 0;
+	font-size: 25px;
+
+}
+.pricing-box ul li button{
+    padding: 10px 40px;
+    color: #fff;
+    background: #02cc83;
+    border: 0;
+    box-shadow: 0 4px 5px #7b7b7b;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+}
+.icon-section{
+
+}
+.icon-content{
+
+}
+.icon{
+	float: left;
+	min-height: : 100px;
+	min-width: : 100px;
+	background: #fff;
+	margin-left: 100px;
+     padding: 50px;
+     box-sizing: border-box;
+     font-size: 30px;
+
+}
